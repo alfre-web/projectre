@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bienvenido | Desarrollador web</title>
+    <link rel="stylesheet" href="">
+    <link rel="icon" type="image/png" href="imgs/logo.png">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="fontawesome-free-5.11.2-web/css/all.min.css">
+</head>
+<body id="hidden">
+    <div id="onload" class="centrado">
+        <div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div> -->
+    </div>
+    <header>
+        <nav id="nav" class="nav1">
+            <div class="contenedor-nav">
+                <div class="logo">
+                    <img src="imgs/logo.png" alt="">
+                </div>
+                <div id="enlaces" class="enlaces">
+                    <a href="#" id="enlace-inicio" class="btn-header">Inicio</a>
+                    <a href="#" id="enlace-acerca" class="btn-header">Acerca de</a>
+                    <a href="#" id="enlace-servicios" class="btn-header">Conocimientos</a>
+                    <a href="#" id="enlace-principal" class="btn-header">Principales</a>
+                    <a href="#" id="enlace-galeria" class="btn-header">Galeria</a>
+                    <a href="#" id="enlace-contacto" class="btn-header">Contacto</a>
+                </div>
+                <div id="open" class="icono">
+                    <span>&#9776;</span>
+                </div>
+            </div>
+        </nav>
+        <div id="inicio" class="textos">
+            <h1>Alfre<span>web</span></h1>
+            <h2>Desarrollador de paginas web</h2>
+            <p class="desaparecer">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis aliquid minima recusandae.</p>
+        </div>
+    </header>
+
+    <main>
+        <section class="acerca " id="sobrem">
+            <div class="left contenedor">
+                <div class="info">
+                    <h2 class="after">Sobre mi</h2>
+                    <p class="black">Mi nombre es Luis Alfredo Aguirre Morales, Lic. en Sistemas Computacionales Administrativos, egresado de la Universidad Veracruzana Campus Coatzacoalcos. Generación(2015 - 2019).
+                    </p >
+                    <p class="black">En mi instancia durante la Universidad realize diversos prototipos relacionados a los sistemas de ventas e inventarios de los cuales fueron desarrollados en distintos lenguajes, tales como:</p>
+                    <ul>
+                        <li>Java</li>
+                        <li>C</li>
+                        <li>PHP</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Javascript</li>
+                    </ul>
+                </div>
+                <div class="acerca-img">
+                    <img src="imgs/me1.PNG" alt="">
+                </div>
+            </div>
+            <!-- <div class="right">
+                <div class="acerca-img">
+                    <img src="imgs/icon9.jpg" alt="">
+                </div>
+                <div class="info">
+                    <h2>Sobre mi</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime dolorem iusto temporibus officia accusamus inventore qui est modi? Perspiciatis animi aspernatur cum ipsum nesciunt officiis vel a esse? Iure, dicta!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim eveniet nesciunt non omnis assumenda debitis, totam atque sapiente quod, iste facere provident voluptatibus rerum illum soluta accusantium impedit nemo at.</p>
+                </div>
+            </div> -->
+        </section>
+
+         <section class="about" id="servicios">
+            <div class="contenedor">
+                <h3 class="after">Conocimientos</h3>
+                <div class="servicios">
+                    <div class="caja-servicios">
+                        <img src="imgs/icon6.png" alt="">
+                        <h4>CSS</h4>
+                    </div>
+                    <div class="caja-servicios">
+                        <img class="mag1" src="imgs/icon5.png" alt="">
+                        <h4>HTML</h4>
+                    </div>
+                    <div class="caja-servicios">
+                        <img src="imgs/icon4.png" alt="">
+                        <h4>PHP</h4>
+                    </div>
+                    <div class="caja-servicios">
+                        <img src="imgs/icon7.png" alt="">
+                        <h4>JAVASCRIPT</h4>
+                    </div>
+                    <div class="caja-servicios">
+                        <img src="imgs/mysql.png" alt="">
+                        <h4>MYSQL WORKBENCH</h4>
+                    </div>
+                    <div class="caja-servicios">
+                        <img src="imgs/icon1.png" alt="">
+                        <h4>JAVA</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="team contenedor" id="princi">
+            <h3 class="after">Principales</h3>
+            <div class="card">
+                <div class="content-card">
+                    <div class="people">
+                        <img src="imgs/css.jpg" alt="">
+                    </div>
+                    <div class="textos-team">
+                        <h4>CSS</h4>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </div>
+                <div class="content-card">
+                    <div class="people">
+                        <img src="imgs/html.png" alt="">
+                    </div>
+                    <div class="textos-team">
+                        <h4>HTML</h4>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </div>
+                <div class="content-card">
+                    <div class="people">
+                        <img src="imgs/php5.jpg" alt="">
+                    </div>
+                    <div class="textos-team">
+                        <h4>PHP</h4>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="galeria contenedor" id="galeria">
+            <h3 class="after">Galeria</h3>
+            <div class="botones-galeria">
+                <li class="filter active" data-nombre="todos">Todos</li>
+                <li class="filter" data-nombre="db">Bases de datos</li>
+                <li class="filter" data-nombre="php">PHP</li>
+                <li class="filter" data-nombre="dw">Desarrollo web</li>
+            </div>
+            <div class="galeria-work">
+                <div class="cont-work db">
+                    <div class="img-works">
+                        <img src="imgs/my1.jpg" alt="">
+                    </div>
+                </div>
+                <div class="cont-work db">
+                    <div class="img-works">
+                        <img src="imgs/my2.jpg" alt="">
+                    </div>
+                </div>
+                <div class="cont-work db">
+                    <div class="img-works">
+                        <img src="imgs/my3.jpeg" alt="">
+                    </div>
+                </div>
+                <div class="cont-work php">
+                    <div class="img-works">
+                        <img src="imgs/php1.jpg" alt="">
+                    </div>
+                </div>
+                <div class="cont-work php">
+                    <div class="img-works">
+                        <img src="imgs/php2.jpg" alt="">
+                    </div>
+                </div>
+                <div class="cont-work php">
+                    <div class="img-works">
+                        <img src="imgs/php3.jpg" alt="">
+                    </div>
+                </div>
+                <div class="cont-work dw">
+                    <div class="img-works">
+                        <img src="imgs/css.jpg" alt="">
+                    </div>
+                </div>
+                <div class="cont-work dw">
+                    <div class="img-works">
+                        <img src="imgs/html.png" alt="">
+                    </div>
+                </div>
+                <div class="cont-work dw">
+                    <div class="img-works">
+                        <img src="imgs/js.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="contacto">
+        <div class="footer contenedor">
+            <div class="marca-logo">
+                <img src="imgs/logo.png" alt="">
+            </div>
+            <div class="iconos">
+                <a href="https://github.com/alfre-web" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.instagram.com/luisalfredo.AM/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/luisalfredo.aguirremorales" target="_blank"><i class="fab fa-facebook"></i></a>
+            </div>
+            <p>Desarrollado por Luis Alfredo &copy; 2019</p>
+        </div>
+    </footer>
+    <script src="js/jquery.js"></script>
+    <script src="js/filtro.js"></script>
+    <script src="js/javascript.js"></script>
+</body>
+</html>
