@@ -207,12 +207,12 @@ span{
     align-items: center;
   } */
   .acerca .info {
+    display: inline;
     width: 70%;
     padding: 0px 30px;
     
   }
   .acerca-img{
-    display: inline;
     height: 40%;
     width: 40%;
     
